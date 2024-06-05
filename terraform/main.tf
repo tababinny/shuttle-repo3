@@ -23,8 +23,8 @@ terraform {
   backend "azurerm" {
     resource_group_name = "#{ResourceGroupName}#"
     storage_account_name = "#{terraformstorageaccount}#"
-    container_name = "con1"
-    key = "prod.terraform.state"
+    container_name = "con2"
+    key = "prod.terraform.tfstate"
     
   }
 }
